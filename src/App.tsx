@@ -23,6 +23,8 @@ function App() {
             .then(response => response.json())
             .then(json => setData(json))
     },[])
+
+
     return (
         <div className="App">
             <Button name={'CLEA DATA'} callBack={GetMeData}/>
